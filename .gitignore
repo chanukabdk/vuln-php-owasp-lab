@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Docker
+**/node_modules
+**/vendor
+
+# Uploads (runtime artifacts)
+src/uploads/*
+!src/uploads/README.md
+
+# Logs
+*.log
+
