@@ -12,8 +12,8 @@ services:
     depends_on:
       - php
 
-php:
-  build: ./docker/php
-  container_name: vuln_php
-  volumes:
-    - ./src:/var/www/html
+  php:
+    build: ./docker/php
+    container_name: vuln_php
+    volumes:
+      - ./src:/var/www/html
