@@ -29,6 +29,13 @@ The application uses a containerized three-tier architecture:
 - PHP connects to MySQL using Docker internal networking
 - Database data is persisted using Docker named volumes
 
+```mermaid
+graph TD
+    Browser --> Nginx
+    Nginx --> PHPFPM
+    PHPFPM --> MySQL
+```
+
 ## Docker Networking
 
 All services run inside a private Docker network.
