@@ -34,7 +34,7 @@
 
         <ul>
             <li><a href="posts.php">View Posts</a></li>
-            <li><a href="upload.php">File Upload</a></li>
+            <li><a href="file_upload.php">File Upload</a></li>
             <li><a href="admin.php">Admin Panel</a></li>
             <li><a href="auth/logout.php">Logout</a></li>
         </ul>
