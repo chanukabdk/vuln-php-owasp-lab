@@ -37,6 +37,7 @@
             <li><a href="file_upload.php">File Upload</a></li>
             <li><a href="admin.php">Admin Panel</a></li>
             <li><a href="auth/logout.php">Logout</a></li>
+            <li><a href="ssrf.php">SSRF Demo</a></li>
         </ul>
     </body>
 </html>
