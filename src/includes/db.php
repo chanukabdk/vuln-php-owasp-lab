@@ -1,10 +1,12 @@
 <?php
 
-$host = 'db';
-$db   = 'vuln_app';
-$user = 'vuln_user';
-$pass = 'vuln_pass';
-$charset = 'utf8mb4';
+$config = require __DIR__ . '/config.php';
+
+$host    = $config['db_host'];
+$db      = $config['db_name'];
+$user    = $config['db_user'];
+$pass    = $config['db_pass'];
+$charset = $config['db_charset'];
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
